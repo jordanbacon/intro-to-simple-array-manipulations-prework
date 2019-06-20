@@ -26,6 +26,9 @@ def using_concat(array1, array2)
   array1.concat(array2)
 end
 
+def using_insert(array, example)
+  
+
  before(:each) do 
     @list_of_esoteric_programming_languages = ["Ante", "ArnoldC", "Befunge", "Binary lambda calculus", "Chef", "GolfScript", "Ook!"]
     @another_esoteric_language = "Malbolge"
